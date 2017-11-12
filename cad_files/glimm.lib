@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3  Date: 2017. szept. 14., csütörtök, 19.09.38 CEST
+#encoding utf-8
+#
+# glimm
+#
+DEF glimm La 0 0 N N 1 F N
+F0 "La" -100 150 50 H V C CNN
+F1 "glimm" 200 -150 50 H V C CNN
+F2 "glimm" 200 150 50 H I C CNN
+F3 "~" 800 -200 60 H V C CNN
+DRAW
+C 0 0 112 0 1 0 N
+P 2 0 1 0  -50 -50  50 -50 N
+P 2 0 1 0  -50 50  50 50 N
+P 2 0 1 0  0 -100  0 -50 N
+P 2 0 1 0  0 50  0 100 N
+C 81 -24 20 1 1 0 F
+X ~ 1 0 200 100 D 40 40 1 1 P
+X ~ 2 0 -200 100 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
